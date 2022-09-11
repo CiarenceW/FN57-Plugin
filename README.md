@@ -8,6 +8,7 @@ A Five-seveN gun mod for Receiver 2
 ## Requirements
  - BepinEx
  - Receiver 2 (duh)
+ - https://github.com/Szikaka-97/UMP_Plugin
 ## Download & Installation
 Download the files in the releases section.
  - Copy the file called _"FN57"_ in **FN-57_R2_(OS).rar** to **'%userprofile%\AppData\LocalLow\Wolfire Games\Receiver2\Guns'**
