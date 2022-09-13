@@ -128,13 +128,13 @@ namespace FN57_plugin
         private static void patchCoreAwake(ref ReceiverCoreScript __instance, ref GameObject[] ___gun_prefabs_all, ref List<MagazineScript> ___magazine_prefabs_all)
         {
             GameObject FN57 = null;
-            MagazineScript FN57_mag_std = null;
-
+            MagazineScript[] FN57_mags = null;
+            
             try
             {
                 FN57 = ___gun_prefabs_all.First(go => (int)go.GetComponent<GunScript>().gun_model == gun_model);
 
-                FN57_mag_std = ___magazine_prefabs_all.First(ms => (int)ms.gun_model == gun_model);
+                FN57_mags = ___magazine_prefabs_all.Where(ms => (int)ms.gun_model == gun_model).ToArray();
             }
             catch (Exception e)
             {
@@ -148,17 +148,20 @@ namespace FN57_plugin
 
             Debug.Log("FN57 loaded");
 
-            __instance.generic_prefabs = new List<InventoryItem>(__instance.generic_prefabs) {
+            var temp_list = new List<InventoryItem>(__instance.generic_prefabs) {
                 FN57.GetComponent<GunScript>(),
-                FN57_mag_std,
-                FN57_mag_std.round_prefab.GetComponent<ShellCasingScript>()
-            }.ToArray();
+                FN57.GetComponent<GunScript>().loaded_cartridge_prefab.GetComponent<ShellCasingScript>()
+            };
 
+            temp_list.AddRange(FN57_mags);
+
+            __instance.generic_prefabs = temp_list.ToArray();
+        
             LocaleTactics lt = new LocaleTactics();
             __instance.PlayerData.unlocked_gun_names.Add("Ciarencew.FN57");
             lt.title = "FN Five-seveN";
             lt.gun_internal_name = "CiarencewFN57";
-            lt.text = "A modded pistol that goes pew pew got damnnn\n" + 
+            lt.text = "A modded pistol that goes pew pew got damnnn\n" +
                 "The Five-seveN is a pistol manufactured by FN Herstal Belgium, firing a special 5.7x28mm cartridge, originally intended to replace the 9x19mm Parabellum cartridge, thanks to its superior penetration of body armor. To safely holster the Five-seveN, switch on the safety, or remove the magazine.";
 
             Locale.active_locale_tactics.Add("Ciarencew.FN57", lt);
