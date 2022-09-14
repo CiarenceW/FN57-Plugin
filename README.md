@@ -10,8 +10,14 @@ A Five-seveN gun mod for Receiver 2
  - Receiver 2 (duh)
  - https://github.com/Szikaka-97/UMP_Plugin
 ## Download & Installation
-Download the files in the releases section.
- - Copy the file called _"FN57"_ in **FN-57_R2_(OS).rar** to (for Windows users) **'%userprofile%\AppData\LocalLow\Wolfire Games\Receiver2\Guns'**
+(You can watch [this](https://www.youtube.com/watch?v=xe5f_CwQQVo) video guide in case something isn't clear)                                                   
+                                                                                                                                                                 
+																																																																																																																																																																	
+ - Download the files in the releases section.<br />
+ - Copy the file called _"FN57"_ in **FN-57_R2_(OS).rar** to <br />
+ %AppData%/LocalLow/Wolfire Games/Receiver2/Guns - Windows <br />
+ ~/Library/Application Support/Wolfire Games/Receiver2/Guns – Mac OS<br />
+ ~/.config/unity3d/Wolfire Games/Receiver2/Guns – Linux <br />
  - Copy the file called _"FN57Patch"_ in **FN-57_R2_(OS).rar** to (where you have R2 installed) **Receiver 2\BepinEx\plugins**
  ## Usage
 Go to the debug menu, and start the custom campaign, or go to the debug menu and spawn the gun + mag in.
