@@ -2,8 +2,8 @@
 A Five-seveN gun mod for Receiver 2
 
 
-
-
+## DISCLAIMER
+If you run into an issue, create an issue in the Issues tab on GitHub, with a screenshot of your problem and your player.log file, located in your  %UserProfile%\AppData\LocalLow\Wolfire Games\Receiver2\ folder or equivalent for your OS.
 
 ## Requirements
  - [BepinEx 5](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.21)
