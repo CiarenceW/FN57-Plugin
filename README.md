@@ -8,7 +8,7 @@ A Five-seveN gun mod for Receiver 2
 ## Requirements
  - [BepinEx 5](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.21)
  - Receiver 2 (duh)
- - https://github.com/Szikaka-97/UMP_Plugin
+ - https://github.com/Szikaka-97/Thompson-Plugin
 ## Download & Installation
 (You can watch [this](https://www.youtube.com/watch?v=xe5f_CwQQVo) video guide in case something isn't clear)                                                   
                                                                                                                                                                  
