@@ -8,6 +8,7 @@ using System.Reflection;
 using System;
 using R2CustomSounds;
 using Receiver2ModdingKit;
+using BepInEx;
 
 namespace FN57_plugin
 {
@@ -34,6 +35,7 @@ namespace FN57_plugin
 
             __instance.generic_prefabs = new List<InventoryItem>(__instance.generic_prefabs) { CiarencewFN57 }.ToArray();
         }*/
+
         public override ModHelpEntry GetGunHelpEntry()
         {
             return help_entry = new ModHelpEntry("FN57")
@@ -65,7 +67,7 @@ namespace FN57_plugin
                 extra_mass = 7.5f,
                 mass = 2f,
                 speed = 716f,
-                diameter = 0.0054f
+                diameter = 0.0057f
             };
         }
         public override void InitializeGun()
@@ -78,7 +80,10 @@ namespace FN57_plugin
         }
         public override void UpdateGun()
         {
-            
+            if (this.magazine_instance_in_gun != null)
+            {
+                this.magazine_instance_in_gun.spring.orig_dist = 0.098f;
+            }
             if (IsSafetyOn())
             { // Safety blocks the trigger from moving
                 trigger.amount = Mathf.Min(trigger.amount, 0.1f);
@@ -122,6 +127,8 @@ namespace FN57_plugin
             ApplyTransform("trigger_bar", trigger.amount, transform.Find("trigger_bar"));
             ApplyTransform("barrel", slide.amount, transform.Find("barrel"));
             ApplyTransform("Cam", slide.amount, transform.Find("Cam"));
+            ApplyTransform("loaded_chamber_indicator", loaded_chamber_indicator.amount, transform.Find("slide/loaded_chamber_indicator"));
+
         }
     }
 }
