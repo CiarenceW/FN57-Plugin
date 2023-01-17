@@ -17,12 +17,14 @@ namespace FN57_plugin
     {
         private ModHelpEntry help_entry;
         public Sprite help_entry_sprite;
+        public GameObject coumpound_ammo_box;
         private readonly float[] slide_push_hammer_curve = new float[] {
             0,
             0,
             0.02f,
             1
         };
+        private static readonly int gun_model = 1057;
         /*[HarmonyPatch(typeof(ReceiverCoreScript), "Awake")]
         [HarmonyPostfix]
         private static void PatchCoreAwake(ref ReceiverCoreScript __instance, ref GameObject[] ___gun_prefabs_all)
@@ -77,13 +79,13 @@ namespace FN57_plugin
         public override void AwakeGun()
         {
             hammer.amount = 1;
+            if (coumpound_ammo_box != null)
+            {
+
+            }
         }
         public override void UpdateGun()
         {
-            if (this.magazine_instance_in_gun != null)
-            {
-                this.magazine_instance_in_gun.spring.orig_dist = 0.098f;
-            }
             if (IsSafetyOn())
             { // Safety blocks the trigger from moving
                 trigger.amount = Mathf.Min(trigger.amount, 0.1f);
@@ -127,7 +129,8 @@ namespace FN57_plugin
             ApplyTransform("trigger_bar", trigger.amount, transform.Find("trigger_bar"));
             ApplyTransform("barrel", slide.amount, transform.Find("barrel"));
             ApplyTransform("Cam", slide.amount, transform.Find("Cam"));
-            ApplyTransform("loaded_chamber_indicator", loaded_chamber_indicator.amount, transform.Find("slide/loaded_chamber_indicator"));
+            ApplyTransform("loaded_chamber_indicator", 1, transform.Find("slide/loaded_chamber_indicator"));
+            UpdateAnimatedComponents();
 
         }
     }

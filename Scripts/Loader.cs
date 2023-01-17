@@ -8,7 +8,7 @@ using BepInEx;
 namespace FN57_plugin
 {
         [BepInDependency("pl.szikaka.receiver_2_modding_kit")]
-        [BepInPlugin("Ciarencew.FN57", "FN57 Plugin", "1.2.0")]
+        [BepInPlugin("Ciarencew.FN57", "FN57 Plugin", "2.1.0")]
         internal class MainPlugin : BaseUnityPlugin
         {
             public static MainPlugin instance
