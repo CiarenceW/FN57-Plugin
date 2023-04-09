@@ -1,7 +1,9 @@
 # FN57-Plugin
 A Five-seveN gun mod for Receiver 2
 
-Also check out: [MagLoaderThing](https://github.com/CiarenceW/MagLoaderThing), this un-cuts a thing in the Compound that makes reloading big magazines a breeze
+Also check out: [MagLoaderThing](https://github.com/CiarenceW/MagLoaderThing), this un-cuts a thing in the Compound that makes reloading big magazines a breeze  
+
+And [this](https://github.com/CiarenceW/r2_CustomCompoundAmmoBoxes) as well, it adds ammo boxes for modded cartridges in the Compound, with possibilities of adding custom models for them too (like this gun has)
 
 ## DISCLAIMER
 If you run into an issue, create an issue in the Issues tab on GitHub, with a screenshot of your problem and your player.log file, located in your  %UserProfile%\AppData\LocalLow\Wolfire Games\Receiver2\ folder or equivalent for your OS.
