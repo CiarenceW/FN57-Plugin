@@ -1,0 +1,34 @@
+{
+    "ranks" : [
+        {
+            "name" : 82,
+            "configuration" : "FN57_introduction",
+            "local_version" : true
+        },
+        {
+            "name" : 83,
+            "configuration" : "FN57_beginner",
+            "local_version" : true
+        },
+        {
+            "name" : 84,
+            "configuration" : "FN57_sleeper",
+            "local_version" : true
+        },
+        {
+            "name" : 85,
+            "configuration" : "FN57_sleepwalker",
+            "local_version" : true
+        },
+        {
+            "name" : 86,
+            "configuration" : "FN57_liminals",
+            "local_version" : true
+        },
+        {
+            "name" : 87,
+            "configuration" : "FN57_awake",
+            "local_version" : true
+        }
+    ]
+}

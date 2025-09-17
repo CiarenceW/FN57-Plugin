@@ -1,0 +1,18 @@
+{
+    "name": "Five-SeveN",
+    "references": [
+        "GUID:041edb9e43e1cd140a16ecbcf83eaffa"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "BepInEx.dll",
+        "Wolfire.Receiver2.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f773cd2b7463d44aa153647e991b43, type: 3}
+  m_Name: FiveSeven Path
+  m_EditorClassIdentifier: 
+  Data:
+  - {fileID: 3448148085493751284}
+  - {fileID: 7451364727315560955}
+--- !u!114 &3448148085493751284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeb2a60b1f31d44eaf0361730fb3f93, type: 3}
+  m_Name: AssetReference
+  m_EditorClassIdentifier: 
+  Asset: {fileID: 102900000, guid: 812279659467b604ab8ea437364f49d0, type: 3}
+--- !u!114 &7451364727315560955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cebc722807299b54bb8733330087d5e3, type: 3}
+  m_Name: Constant
+  m_EditorClassIdentifier: 
+  Value: .release

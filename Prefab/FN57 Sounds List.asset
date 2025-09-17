@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -191055665, guid: 52e3be10599a61d478a18d59f1da11dc, type: 3}
+  m_Name: FN57 Sounds List
+  m_EditorClassIdentifier: 
+  prefix: fn57
+  sound_path: Guns\FN57\Sounds
+  sound_events:
+  - custom:/fn57/fiveseven_fire
+  - event:/guns/1911/1911_dry_fire
+  - event:/guns/deagle/safety_on
+  - event:/guns/deagle/safety_off
+  - custom:/fn57/fiveseven_mag_rattle2
+  - custom:/fn57/fiveseven_mag_in
+  - custom:/fn57/fiveseven_mag_in
+  - custom:/fn57/fiveseven_mag_out
+  - custom:/fn57/fiveseven_mag_out
+  - event:/guns/glock/double_feed
+  - event:/guns/glock/double_feed_magazine_release
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - custom:/fn57/fiveseven_slider_out_slow
+  - custom:/fn57/fiveseven_slider_in_slow
+  - 
+  - 
+  - event:/guns/1911/1911_eject_bullet
+  - custom:/fn57/fiveseven_slider_in_fast
+  - event:/guns/deagle/slide_back_partial
+  - event:/guns/1911/slide_hit_lock
+  - custom:/fn57/fiveseven_slider_out_fast
+  - 
+  - 
+  - event:/guns/1911/1911_trigger_forwards
+  - event:/guns/1911/1911_trigger_blocked
+  - event:/guns/1911/1911_trigger_reset
+  fallback_events:
+  - event:/guns/1911/shot
+  - event:/guns/1911/1911_dry_fire
+  - event:/guns/deagle/safety_on
+  - event:/guns/deagle/safety_off
+  - event:/guns/1911/start_insert_mag
+  - event:/guns/1911/insert_mag
+  - event:/guns/1911/insert_mag
+  - event:/guns/1911/eject_mag
+  - event:/guns/1911/eject_mag
+  - event:/guns/glock/double_feed
+  - event:/guns/glock/double_feed_magazine_release
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - event:/guns/deagle/press_check_start
+  - event:/guns/deagle/press_check_end
+  - 
+  - 
+  - event:/guns/1911/1911_eject_bullet
+  - event:/guns/deagle/slide_back
+  - event:/guns/deagle/slide_back_partial
+  - event:/guns/1911/slide_hit_lock
+  - event:/guns/deagle/slide_released
+  - 
+  - 
+  - event:/guns/1911/1911_trigger_forwards
+  - event:/guns/1911/1911_trigger_blocked
+  - event:/guns/1911/1911_trigger_reset

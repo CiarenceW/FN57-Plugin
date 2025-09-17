@@ -1,0 +1,67 @@
+{
+    "meta" : {
+        "version" : 1
+    },
+    "content" : {
+        "version" : 1,
+        "loadout_name" : "Randomized Five-seveN Loadout",
+        "gun_internal_name" : "Ciarencew.FN57",
+        "randomize_gun_slot" : true,
+        "gun_slot" : 14,
+        "equipment" : [
+            {
+                "randomize_slot" : true,
+                "slot" : 0,
+                "equipment_type" : 1,
+                "randomize_magazine_class" : false,
+                "magazine_class" : 0,
+                "tape" : 0,
+                "tape_string" : "",
+                "persistent_data" : null,
+                "prefab_name" : "",
+                "magazine_ammo" : 0,
+                "randomize_loaded_ammo_count" : false,
+                "random_loaded_ammo_min" : 0,
+                "random_loaded_ammo_max" : 0,
+                "chance_of_presence" : 0.5
+            },
+            {
+                "randomize_slot" : true,
+                "slot" : 0,
+                "equipment_type" : 0,
+                "randomize_magazine_class" : true,
+                "magazine_class" : 0,
+                "tape" : 0,
+                "tape_string" : "",
+                "persistent_data" : null,
+                "prefab_name" : "",
+                "magazine_ammo" : 0,
+                "randomize_loaded_ammo_count" : true,
+                "random_loaded_ammo_min" : 0,
+                "random_loaded_ammo_max" : 7,
+                "chance_of_presence" : 1
+            }
+        ],
+        "randomize_gun_state" : true,
+        "spawn_without_gun" : false,
+        "spawn_without_tape_player" : false,
+        "simplified_tape_player" : true,
+        "activate_obituary_tape" : true,
+        "chambers" : [
+        ],
+        "ammo_count" : 5,
+        "stats" : {
+            "version" : 1,
+            "ammo" : 25,
+            "inventory" : 5,
+            "armor" : 1,
+            "speed" : 10,
+            "aim" : 10,
+            "stealth" : 10,
+            "invisible" : false
+        },
+        "player_height" : 1.70000004768372,
+        "tutorial_tapes" : [
+        ]
+    }
+}
