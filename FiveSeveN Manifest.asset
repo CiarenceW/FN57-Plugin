@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AssetBundleDefinitions
   m_EditorClassIdentifier: 
   StagingPaths:
-  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\CiarenceW-FN57
+  - <GunsExportPath>/CiarenceW-FN57
   assetBundles:
   - assetBundleName: ciarencew-fiveseven
     assets:
@@ -37,7 +37,7 @@ MonoBehaviour:
   m_Name: AssemblyDefinitions
   m_EditorClassIdentifier: 
   StagingPaths:
-  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\CiarenceW-FN57
+  - <CodeExportPath>/CiarenceW-FN57
   definitions:
   - {fileID: 5897886265953266890, guid: 5cab80cb1a1e8a64f98661907f01f6b9, type: 3}
 --- !u!114 &11400000
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_Name: Files
   m_EditorClassIdentifier: 
   StagingPaths:
-  - C:\Users\coren\AppData\Roaming\r2modmanPlus-local\Receiver2\profiles\Default\BepInEx\plugins\CiarenceW-MR223
+  - <CodeExportPath>/CiarenceW-FN57
   includeMetaFiles: 0
   files:
   - {fileID: 4900000, guid: a4009b57864897140abe5a5dedd4a027, type: 3}

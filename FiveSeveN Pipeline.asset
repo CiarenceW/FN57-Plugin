@@ -15,7 +15,6 @@ MonoBehaviour:
   Active: 1
   assetBundleOptions: 256
   onlyBuildCurrentPlatform: 0
-  sendCurrentPlatformAssetBundleToManifestStagingPath: 1
   bundleArtifactPath: <FiveSeven Path>
 --- !u!114 &11400000
 MonoBehaviour:
