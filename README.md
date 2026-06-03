@@ -55,6 +55,11 @@ Initial release
  - Fixed bullets not fucking penetrating stuff
  - Changed cartridge models and textures for new ones from H3VR
  - Slightly moved back the position of the cartridge when it's chambered properly
+ 
+`3.1.0`  
+ - Fixed spent cartridges not appearing as such  
+ - ThunderStore install now includes Linux & MacOSX bundles as well  
+ - Slightly increased press check amount, you can actually check if a round is spent or not now, wow
 
 ## DISCLAIMER
 If you run into an issue, create an issue in the Issues tab on GitHub, with a screenshot of your problem and your player.log file, located in your  %UserProfile%\AppData\LocalLow\Wolfire Games\Receiver2\ folder or equivalent for your OS.

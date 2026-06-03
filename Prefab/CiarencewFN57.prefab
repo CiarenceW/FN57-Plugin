@@ -4793,7 +4793,7 @@ MonoBehaviour:
   dry_fired: 0
   chamber_check_performed: 0
   mass: 0.6
-  press_check_amount: 0.4
+  press_check_amount: 0.5
   slide_stop_component: {fileID: 1670623812935489600}
   known_slide_stop_amount: 0
   loaded_chamber_indicator_component: {fileID: 6805921259343391966}
@@ -4877,6 +4877,7 @@ MonoBehaviour:
   visible_in_spawnmenu: 1
   spawns_in_dreaming: 1
   magazine_shake_strength_multiplier: 1
+  slide_return_time: 0.04
   help_entry:
     generate: 1
     name: FN57
@@ -8635,6 +8636,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a5ac85d2741cb54c8c8694eaf9591e7, type: 3}
+--- !u!4 &7896614869979214856 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6589699510020781446, guid: 9a5ac85d2741cb54c8c8694eaf9591e7,
+    type: 3}
+  m_PrefabInstance: {fileID: 3955631244560499086}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1626785619191934765 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2339260803134336675, guid: 9a5ac85d2741cb54c8c8694eaf9591e7,
@@ -8677,9 +8684,3 @@ MonoBehaviour:
   m_Script: {fileID: -645897255, guid: ae6df1fee595eda6dbb801a74c907a8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &7896614869979214856 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6589699510020781446, guid: 9a5ac85d2741cb54c8c8694eaf9591e7,
-    type: 3}
-  m_PrefabInstance: {fileID: 3955631244560499086}
-  m_PrefabAsset: {fileID: 0}
