@@ -276,7 +276,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7326105573616089052}
-  - component: {fileID: 5955342926899742618}
   - component: {fileID: 2025543990121313898}
   - component: {fileID: 1645154781004531063}
   - component: {fileID: -196869182673445802}
@@ -307,52 +306,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5955342926899742618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7989489748917169510}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 65355242, guid: ae6df1fee595eda6dbb801a74c907a8e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  uid: 
-  internal_name: ciarencew.5,7x28mm SS190
-  type: 0
-  has_been_touched_by_player: 0
-  storable_in_pouch: 1
-  item_owner_id: -1
-  slot: {fileID: 0}
-  rigid_body: {fileID: 0}
-  center_of_mass: {fileID: 0}
-  force_pull_start_position: {x: 0, y: 0, z: 0}
-  force_pull_start_rotation: {x: 0, y: 0, z: 0, w: 0}
-  force_pull_start_time: -Infinity
-  physics_collided: 1
-  physics_activated_time: 0
-  colliders:
-  - {fileID: 1645154781004531063}
-  pickup_sound: 
-  drop_sound: 
-  ground_pos_offset: {fileID: 0}
-  glint_renderer: {fileID: 4080088304227927897}
-  inventory_position: {x: 0, y: 0, z: 0}
-  inventory_rotation: {x: 0, y: 0, z: 0}
-  inventory_scale: {x: 1, y: 1, z: 1}
-  hold_offset: {x: 0, y: 0, z: 0}
-  hold_rotation: {x: 0, y: 0, z: 0}
-  hold_scale: 1
-  go_round: {fileID: 4001555296739700266}
-  go_casing: {fileID: 3197011114312169223}
-  tracer_model: {fileID: 0}
-  prefab_bullet: {fileID: 0}
-  tracer: 1
-  cartridge_type: 1057
-  ammo_box_prefab: {fileID: 4340285356094533603, guid: ee10ea0045e0aed4e80ce9d3c78e9a22,
-    type: 3}
 --- !u!114 &2025543990121313898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -438,7 +391,7 @@ MonoBehaviour:
   m_Script: {fileID: 1062373773, guid: ae6df1fee595eda6dbb801a74c907a8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item_owner: {fileID: 5955342926899742618}
+  item_owner: {fileID: 2025543990121313898}
 --- !u!1 &9064034318181299363
 GameObject:
   m_ObjectHideFlags: 0
